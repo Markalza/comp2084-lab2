@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Welcome to COMP2084- Lab 2 Products Tab</h2>
+
+<ul>
+    <li>@Html.ActionLink("laptop","Product","Products",new { ProductName = "laptop" },null )</li>
+    <li>@Html.ActionLink("tablet", "Product", "Products", new { ProductName = "tablet" }, null)</li>
+    <li>@Html.ActionLink("desktop", "Product", "Products", new { ProductName = "desktop" }, null)</li>
+
+
+
+</ul>
